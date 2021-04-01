@@ -1,0 +1,76 @@
+<!Doctype html>
+<html lang="de">
+
+<head>
+    <title>Regenbogen</title>
+    <style>
+        #scene {
+            border: 1px dotted black
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Regenbogen</h1>
+    <canvas id="scene" width="500" height="500">
+        Dein Browser unterstützt Canvas nicht.
+    </canvas>
+    <script>
+        /** @type {CanvasRenderingContext2D} */
+        let ctx = scene.getContext("2d")
+        
+        
+        let drawRainbow = (x, y, startAngle, color) =>
+{
+    let drawSemiCircle = (x, y, Radius, 0, Math.P)
+    {
+        ctx.beginPath()
+        ctx.lineWidth = 10
+        ctx.strokeStyle = strokeColor
+        ctx.arc(x, y, Radius, 0, Math.PI)
+        ctx.stroke()
+    }
+ctx.beginPath()
+ctx.lineWidth = 10
+ctx.strokeStyle = "red"
+ctx.arc(x, y, 100, 0, Math.PI)
+ctx.stroke()
+
+ctx.beginPath()
+ctx.lineWidth = 10
+ctx.strokeStyle = "orange"
+ctx.arc(x, y, 90, 0, Math.PI)
+ctx.stroke()
+
+ctx.beginPath()
+ctx.lineWidth = 10
+ctx.strokeStyle = "yellow"
+ctx.arc(x, y, 80, 0, Math.PI)
+ctx.stroke()
+
+ctx.beginPath()
+ctx.lineWidth = 10
+ctx.strokeStyle = "green"
+ctx.arc(x, y, 70, 0, Math.PI)
+ctx.stroke()
+
+ctx.beginPath()
+ctx.lineWidth = 10
+ctx.strokeStyle = "blue"
+ctx.arc(x, y, 60, 0, Math.PI)
+ctx.stroke()
+
+ctx.beginPath()
+ctx.lineWidth = 10
+ctx.strokeStyle = "purple"
+ctx.arc(x, y, 50, 0, Math.PI)
+ctx.stroke()
+}
+drawRainbow(300, 250)
+        
+        
+
+    </script>
+</body>
+
+</html>
